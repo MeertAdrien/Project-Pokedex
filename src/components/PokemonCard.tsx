@@ -9,7 +9,7 @@ function PokemonCard({ name, image }: PokemonCardProps) {
         <figure>
             {image ? (
                 <img src={image} alt={name} />
-            ) : (
+            ) : (-
                 <p>???</p>
             )}
             <figcaption>
